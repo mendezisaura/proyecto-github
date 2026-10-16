@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #5a3e1b;
+  color: #f0e6d2;
+  font-family:serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+}
+
+section {
+  flex: 3;
+  background-color: #4a2f0b;
+  border: 1px solid #b47c36;
+  padding: 20px;
+  text-align: center;
+}
+
+section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: serif;
+  color: #f0e6d2;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+ul li img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border: 1px solid #b47c36;
+}
+
+aside {
+  flex: 1;
+  background-color: #6c4a1b;
+  border: 1px solid #b47c36;
+  padding: 20px;
+  text-align: center;
+}
+
+aside h2 {
+  font-family: serif;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+nav a {
+  color: #f0e6d2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  gap: 20px;
+}
+
+article {
+  flex: 1;
+  background-color: #a67c39;
+  border: 1px solid #c9a35d;
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+article img {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+}
+
+footer figure {
+  flex: 1;
+  background-color: #a67c39;
+  border: 1px solid #c9a35d;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer figure img {
+  width: 80%;
+  height: 100px;
+  object-fit: cover;
+}
+ 
+.degradado-beige{
+    background: linear-gradient(to bottom, #d69e2e, #fefcbf);
+}
+
+.degradado-cafe{
+    background: linear-gradient(to bottom, #d69e2e, #fefcbf);
+}
+
+.iconos-footer{
+    display: flex;
+    gap: 12px;
+    font-style: normal;
+    font-size: 1.2rem;
+    border-left: 1px solid #ffffff;
+    padding-left: 15px;
+}
+
+.enlace-google {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}
